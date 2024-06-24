@@ -70,12 +70,11 @@
 }
 
 .hide {
-  float: left;
+  display: block;
 }
 
 .hiding {
   display: none;
-  position: absolute;
 }
 
 @media screen and (max-width: 960px) {
@@ -106,6 +105,10 @@
 
   .select_2 {
     order: 2;
+  }
+
+  .hide {
+    display: none;
   }
 
   .hiding {
